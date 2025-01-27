@@ -2,9 +2,10 @@
   "expo": {
     "name": "mgc-movil",
     "slug": "mgc-movil",
+    "scheme": "your-app-scheme",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/mgc_logo.png",  
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -17,12 +18,25 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/mgc_logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.niels123.mgcmovil"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-localization"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b67a8cf9-c274-4b75-b042-bf3d1148dcd8"
+      }
     }
   }
 }
