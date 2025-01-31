@@ -35,7 +35,7 @@ export default function Home() {
           style={styles.button}
           onPress={() => router.push("/auth/login")}
         >
-          <Text style={styles.buttonText}>Ingresar</Text>
+          <Text style={styles.buttonText}>IngresarR</Text>
         </TouchableOpacity>
         {/* <TouchableOpacity
           style={styles.button}
